@@ -10,6 +10,7 @@ print(name)
 print(name)
 print(name)
 print(name)
+print(name)
 
 print(id(name))
 print(id(name))
