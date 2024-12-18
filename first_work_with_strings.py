@@ -5,7 +5,7 @@ print(qvote)
 emoje = '\U0001F941'
 print(emoje)
 
-name = 'Al2ex'
+name = 'Alex'
 print(name)
 print(name)
 print(name)
