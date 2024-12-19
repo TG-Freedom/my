@@ -5,15 +5,13 @@ from phrases import PHRASES
 print("Вітаємо у ресторані 'Дача'!")
 clirnt_name = input("Як до вас можна звертатися? ")
 
-clirnt_name = clirnt_name.title() # Делает все слова с большой буквы
-clirnt_name = clirnt_name.strip() # Убирает пробелы
-clirnt_name = clirnt_name.strip('0123456789 ') # Удалем все ненужные символы
-clirnt_name = clirnt_name.lstrip() # очешаем только справа пробелы
-clirnt_name = clirnt_name.rstrip() # очешаем только с лева пробелы
-
+clirnt_name = clirnt_name.title()  # Делает все слова с большой буквы
+clirnt_name = clirnt_name.strip()  # Убирает пробелы
+clirnt_name = clirnt_name.strip('0123456789 ')  # Удалем все ненужные символы
+clirnt_name = clirnt_name.lstrip()  # очешаем только справа пробелы
+clirnt_name = clirnt_name.rstrip()  # очешаем только с лева пробелы
 
 print(f"Раді вас бачити, {clirnt_name}!\n")
-
 
 # Пропонуємо страви
 order = {}
